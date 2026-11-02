@@ -25,7 +25,7 @@ services:
     image: ghcr.io/kafbat/kafka-ui:latest
     container_name: bistro-kafka-ui
     ports:
-      - "8090:8080"
+      - "8091:8080"
     depends_on:
       - kafka
     environment:
